@@ -1,6 +1,13 @@
 public class Kafe13 {
 
-    public static void Menu() {
+    public static void Main(String[]args) {
+        String namaPelanggan = "Andi";
+        boolean isMember = true;
+        System.out.println("Selamat datang, " + namaPelanggan + ")");
+
+        if(isMember){
+            System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!");
+        }
         System.out.println("===== MENU RESTO KAFE =====");
         System.out.println("1. Kopi Hitam - Rp 15,000");
         System.out.println("2. Cappucino - Rp 20,000");
@@ -11,7 +18,7 @@ public class Kafe13 {
         System.out.println("===========================");
         System.out.println("Silahkan pilih menu yang Anda inginkan.");
     }
-    public static void main(String[] args) {
-        Menu();
-    }
-}
+   // public static void main(String[] args) {
+    //    Menu("Andi", true);
+    //}
+}   
