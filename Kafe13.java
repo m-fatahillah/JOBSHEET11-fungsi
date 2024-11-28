@@ -1,9 +1,7 @@
 public class Kafe13 {
 
-    public static void Main(String[]args) {
-        String namaPelanggan = "Andi";
-        boolean isMember = true;
-        System.out.println("Selamat datang, " + namaPelanggan + ")");
+    public static void Menu(String namaPelanggan, boolean isMember) {
+        System.out.println("Selamat datang, " + namaPelanggan + "!");
 
         if(isMember){
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!");
