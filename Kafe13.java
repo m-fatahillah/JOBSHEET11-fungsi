@@ -18,7 +18,7 @@ public class Kafe13 {
         System.out.println("===========================");
         System.out.println("Silahkan pilih menu yang Anda inginkan.");
     }
-   // public static void main(String[] args) {
-    //    Menu("Andi", true);
-    //}
+     public static void main(String[] args) {
+        Menu("Andi", true);
+    }
 }   
